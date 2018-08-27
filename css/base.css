@@ -1,0 +1,32 @@
+/* .container{
+    width:1220px;
+    margin-left: auto;
+    margin-right: auto;
+} */
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.rp{
+    position: relative;
+}
+.border::after{
+    position: absolute;
+    content:"";
+    display: block;
+    top:0;
+    right:0;
+    width: 1px;
+    height:100%;
+    border-right: 1px solid #ddd; 
+}
+[class^="col"]{
+    text-align: center; 
+}

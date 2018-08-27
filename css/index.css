@@ -1,0 +1,175 @@
+/* 导航.css */
+*{margin:0;padding:0;}
+.navbar-collapse {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+    margin-right: 100px;
+}
+.navbar-default {
+    border:none;
+    background:#fff !important;
+    margin-bottom: 0px !important;
+}
+.navbar-nav li:hover>a{
+    background: #00aeff !important;
+}
+.navbar-nav li a{
+    font-size: 16px;
+}
+.navbar-nav li:hover a{
+    color:#fff !important;
+}
+.navbar-nav li:not(:last-child){
+    margin-top: 10px;
+}
+.navbar-brand {
+    width: 300px;
+    height: 62px;
+    background: url("../images/logo.png") no-repeat;
+    margin-left:70px;
+}
+@media (max-width:1000px) {
+    .navbar-brand {
+        width: 161px;
+        height: 62px;
+        background: url("../images/logo_min.png") no-repeat
+    }
+}
+/* 轮播.css */
+.carousel-inner{
+    width:100%;
+    margin-left:auto;
+    margin-right: auto;
+    background: url("../images/bg-0.jpg") no-repeat center center !important;
+}
+.carousel-inner img{
+    margin-left: 270px;
+    margin-top: 270px;
+}
+/* 内容.css */
+.serve{
+    margin-bottom: 100px;
+}
+.serve h2{
+    margin-top: 60px;
+    color:#00aeff;
+    width:auto;
+    text-align:center;
+}
+.serve p{
+    width:auto;
+    height: 1px;
+    color:#00aeff;
+    border: 1px solid #00aeff;
+    text-align: center;
+}
+.support[class^="col"]{
+    text-align: center; 
+}
+.support>div p{
+    height:12px;
+    line-height: 12px;
+}
+.support{
+    margin-bottom: 130px;
+}
+.support>div h4{
+    font-weight: bold;
+}
+/* 内容2.css */
+.product{
+    margin-top: 60px;
+    background: #f1f5f8;
+}
+.product-display h2{
+    padding-top: 60px;
+    color: #00aeff;
+    text-align: center;
+}
+.product-display p{
+    width:auto;
+    height: 1px;
+    color:#00aeff;
+    border: 1px solid #00aeff;
+    text-align: center;
+}
+.product-img{
+    margin-top: 50px;
+}
+.product-img>div{
+    margin-bottom: 30px;
+}
+.product-img>div>p{
+    color: #aaa;
+}
+.product-img div img:hover{
+    opacity: 0.5;
+}
+.client{
+    margin-top: 60px;
+}
+.client-we h2{
+    padding-top: 60px;
+    color: #00aeff;
+    text-align: center;
+}
+.client-we p{
+    width:auto;
+    height: 1px;
+    color:#00aeff;
+    border: 1px solid #00aeff;
+    text-align: center;
+    margin-top: 15px;
+}
+.client-img{
+    margin-top: 50px;
+}
+.client-img>div{
+    margin-bottom: 50px;
+}
+.client-img>div>img:hover{
+    opacity: 0.5;
+}
+/* 内容.css结束 */
+.footer{
+    margin-top: 30px;
+    width:auto;
+}
+.footer-img{
+    /* position: relative; */
+    width:100%;
+    height:600px;
+    background: url("../images/bg.jpg") no-repeat center center;
+}
+.footer-img h2{
+    padding-top: 22px;
+    text-align: center;
+    color:#fff;
+    margin-bottom: 55px;
+}
+.footer-img p{
+    /* position: absolute; */
+    text-align: center;
+    color:#fff;
+    font-size: 16px;
+    line-height: 23px;
+}
+.footer-map{
+    width:100%;
+    height:100%;
+    background:url("../images/map.png") no-repeat center center;
+}
+.footer-map-left,.footer-map-right{
+    margin-top: 72px;
+}
+.footer-map-con{
+    margin-top: 142px;
+}
+.footer-map h4{
+    color:#fff;
+}
+.foot{
+    margin-top: 40px;
+}
+.foot p{
+    color:#999;
+    text-align: center;
+}
